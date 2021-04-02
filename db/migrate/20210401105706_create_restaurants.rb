@@ -10,4 +10,18 @@ class CreateRestaurants < ActiveRecord::Migration[6.1]
       t.timestamps
     end
   end
+
+  # def change 
+  #   create_table :menu do |m|
+  #     t.string :pasta
+  #     t.string :spaghetti
+  #     t.string :risotto
+  #     t.string :lasagna
+  #     t.string :tiramisu 
+  #     t.string :caldo latte 
+      
+
+  #     t.timestamps
+  #   end
+
 end
